@@ -2,7 +2,7 @@ import firebase from 'firebase/app'
 import 'firebase/firestore'
 import 'firebase/auth'
 
-import config from './firebase.config.js'
+import config from './firebase.config'
 
 export const createUserProfileDocument = async (userAuth, additionalData) => {
   if (!userAuth) return
