@@ -1,5 +1,5 @@
 const config = {
-  apiKey: 'AIzaSyBoMilRCgk8sAo6hv3ch1hC-dFdZUdkGWQ',
+  apiKey: process.env.REACT_APP_API_KEY,
   authDomain: 'crwn-clothing-db-kc.firebaseapp.com',
   databaseURL: 'https://crwn-clothing-db-kc.firebaseio.com',
   projectId: 'crwn-clothing-db-kc',
