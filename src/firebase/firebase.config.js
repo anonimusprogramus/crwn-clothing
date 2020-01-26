@@ -1,5 +1,8 @@
+import runtimeEnv from '@mars/heroku-js-runtime-env'
+const env = runtimeEnv()
+
 const config = {
-  apiKey: process.env.REACT_APP_API_KEY,
+  apiKey: env.REACT_APP_API_KEY,
   authDomain: 'crwn-clothing-db-kc.firebaseapp.com',
   databaseURL: 'https://crwn-clothing-db-kc.firebaseio.com',
   projectId: 'crwn-clothing-db-kc',
